@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/asr_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="25dp"
+        android:text="@string/feature_asr"/>
+
+    <CheckBox
+        android:id="@+id/query_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asr_box"
+        android:paddingLeft="25dp"
+        android:text="@string/feature_query"/>
+
+    <CheckBox
+        android:id="@+id/tts_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/query_box"
+        android:paddingLeft="25dp"
+        android:text="@string/feature_tts"/>
+
+    <CheckBox
+        android:id="@+id/sensor_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tts_box"
+        android:paddingLeft="25dp"
+        android:text="@string/feature_sensor"/>
+
+    <CheckBox
+        android:id="@+id/touch_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sensor_box"
+        android:paddingLeft="25dp"
+        android:text="@string/feature_touch"/>
+
+    <CheckBox
+        android:id="@+id/haptic_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/touch_box"
+        android:paddingLeft="25dp"
+        android:text="@string/feature_haptic"/>
+
+</RelativeLayout>

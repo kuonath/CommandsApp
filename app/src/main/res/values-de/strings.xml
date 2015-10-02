@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Befehle</string>
+    <string name="settings_activity">Einstellungen</string>
+
+    <string name="button_listen">Button, der das zuhören startet</string>
+    <string name="button_commands_list">Alle Befehle</string>
+
+    <string name="empty"> </string>
+
+    <string name="prepare">Bereite Spracherkennung vor</string>
+    <string name="init_failed">Ein Fehler ist bei der Initialisierung aufgetreten</string>
+    <string name="recognizer_not_setup">Die Spracherkennung wurde nicht initialisiert. Bitte starten Sie die App neu.</string>
+    <string name="welcome">Willkommen! Was möchten Sie tun?</string>
+
+    <string name="instructions">Führen Sie das Mikrofon Ihres Smartphones in die Nähe Ihres Mundes oder drücken Sie den Button, um dem Smartphone mitzuteilen, dass es zuhören soll.</string>
+    <string name="listen">Höre zu...</string>
+    <string name="speak">Spreche...</string>
+
+    <string name="confirm">Sie sagten "%1$s". Ist das korrekt?</string>
+    <string name="query">Nach was wollen Sie suchen?</string>
+    <string name="dictate_message">Bitten sagen Sie die Nummer, an die Sie eine Nachricht senden wollen.</string>
+    <string name="dictate_call">Bitte sagen Sie die Nummer, die Sie anrufen möchten.</string>
+    <string name="select">Es gibt mehr als eine App, die diesen Befehl ausführen kann. Bitte wählen Sie eine der folgenden Apps aus, in dem Sie auf ein Element klicken oder indem Sie die Nummer links des Icons sagen.</string>
+    <string name="unknown">Unbekannter Befehl. Bitte sagen Sie \'repeat\', um den Befehl zu wiederholen oder sagen sie \'correct\', um Vorschläge zu bekommen, welchen Befehl Sie gemeint haben könnten.</string>
+    <string name="repeat">Bitte wiederholen Sie den Befehl.</string>
+    <string name="correct">Bitte wählen Sie einen der folgenden Vorschläge aus. Wenn Sie den beabsichtigten Befehl nicht finden konnten, sagen Sie \'missing\' aund wiederholen den Befehl.</string>
+    <string name="number_too_big">Diese Zahl ist zu groß. Bitte sagen Sie Ihre Wahl erneut. Die Zahl sollte unten aufgelistet sein.</string>
+    <string name="say_again">Bitte wiederholen Sie, was Sie sagen wollten.</string>
+
+    <string name="toast_ready">Spracherkennung fertig initialisiert</string>
+    <string name="toast_open_domain_ready">Open-domain Spracherkennung fertig initialisiert</string>
+    <string name="toast_tts_failed">Text-To-Speech konnte nicht initialisiert werden</string>
+    <string name="toast_tts_init">Text-To-Speech erfolgreich initialisiert</string>
+    <string name="toast_no_accel">Dieses Gerät besitzt keinen linearen Beschleunigungssensor</string>
+    <string name="toast_no_grav">Dieses Gerät besitzt keinen Gravitationssensor</string>
+    <string name="toast_no_cover">Dieses Gerät besitzt weder einen Entfernungssensor noch einen Lichtsensor</string>
+    <string name="toast_command_error">Fehler! Der Befehl konnte nicht ausgeführt werden</string>
+    <string name="toast_not_understood_continue">Ich habe nichts verstanden. Höre weiterhin zu. Um das Zuhören zu beenden können Sie den \'Zurück\' Button drücken.</string>
+    <string name="toast_not_understood_stop">Ich habe nichts verstanden.</string>
+    <string name="toast_dont_know">Ich weiß nicht, was passiert ist. Bitte versuchen Sie es erneut.</string>
+    <string name="toast_err_speaking">Ein Fehler trat während des Sprechens auf.</string>
+    <string name="toast_feature_not_activated">Diese Funktion ist nicht aktiviert. Sie können die Funktion in den Einstellungen aktivieren.</string>
+
+    <string name="suggestion_frequency">Relevanz: %1$d</string>
+
+    <!-- DialogFeaturesFragment -->
+    <string name="select_features">Bitte wählen Sie die Funktionen aus, die aktiviert werden sollen.</string>
+    <string name="feature_asr">Automatische Spracherkennung</string>
+    <string name="feature_query">Open-domain Suchanfragen</string>
+    <string name="feature_tts">Text-to-speech</string>
+    <string name="feature_sensor">Sensoreingaben</string>
+    <string name="feature_touch">Toucheingaben</string>
+    <string name="feature_haptic">Haptisches Feedback</string>
+    <string name="button_ok">OK</string>
+    <string name="button_settings">Einstellungen</string>
+    <string name="button_close">App schließen</string>
+
+    <!-- options menu -->
+    <string name="settings">Einstellungen</string>
+
+    <!-- Preferences -->
+    <string name="pref_asr_group">Automatische Spracherkennung</string>
+    <string name="pref_asr_active_title">Automatische Spracherkennung aktiv</string>
+    <string name="pref_open_domain_title">Open-domain Suchanfragen verwenden</string>
+
+    <string name="pref_tts_group">Text-To-Speech</string>
+    <string name="pref_tts_active_title">Text-To-Speech aktiv</string>
+    <string name="pref_speech_rate_title">Sprachgeschwindigkeit</string>
+    <string name="pref_pitch_title">Tonhöhe</string>
+    <string name="pref_language_title">Sprache</string>
+    <string name="pref_voice_title">Stimme</string>
+    <string name="pref_engine_title">Engine</string>
+
+    <string name="asr_active">aktiv</string>
+    <string name="asr_inactive">inaktiv</string>
+    <string name="yes">ja</string>
+    <string name="no">nein</string>
+
+    <string name="pref_sensors_group">Sensoren</string>
+    <string name="pref_sensor_active_title">Sensoren aktiv</string>
+
+    <string name="pref_touch_group">Berührungseingabe</string>
+    <string name="pref_touch_active_title">Berührungseingabe aktiv</string>
+
+    <string name="pref_haptic_group">Haptisches feedback</string>
+    <string name="pref_haptic_active_title">Haptisches feedback aktiv</string>
+</resources>

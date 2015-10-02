@@ -1,0 +1,119 @@
+Language model created by QuickLM on Fri Aug 28 08:06:57 EDT 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 15 sentences and 26 words
+
+\data\
+ngram 1=26
+ngram 2=39
+ngram 3=31
+
+\1-grams:
+-0.9173 </s> -0.3010
+-0.9173 <s> -0.2450
+-1.7924 a -0.2940
+-2.0934 browser -0.2450
+-2.0934 calculator -0.2450
+-2.0934 calendar -0.2450
+-2.0934 call -0.2975
+-2.0934 cancel -0.2450
+-2.0934 commands -0.2450
+-2.0934 contacts -0.2450
+-2.0934 email -0.2450
+-2.0934 maps -0.2450
+-2.0934 message -0.2450
+-2.0934 music -0.2975
+-2.0934 new -0.2975
+-2.0934 note -0.2450
+-1.3945 open -0.2832
+-2.0934 photos -0.2450
+-2.0934 picture -0.2450
+-2.0934 player -0.2450
+-2.0934 search -0.2450
+-2.0934 send -0.2975
+-1.6163 show -0.2904
+-2.0934 someone -0.2450
+-1.7924 take -0.2940
+-2.0934 text -0.2975
+
+\2-grams:
+-1.4771 <s> call 0.0000
+-1.4771 <s> cancel 0.0000
+-1.4771 <s> new 0.0000
+-0.7782 <s> open 0.0000
+-1.4771 <s> search 0.0000
+-1.4771 <s> send 0.0000
+-1.0000 <s> show 0.0000
+-1.1761 <s> take 0.0000
+-0.6021 a note 0.0000
+-0.6021 a picture 0.0000
+-0.3010 browser </s> -0.3010
+-0.3010 calculator </s> -0.3010
+-0.3010 calendar </s> -0.3010
+-0.3010 call someone 0.0000
+-0.3010 cancel </s> -0.3010
+-0.3010 commands </s> -0.3010
+-0.3010 contacts </s> -0.3010
+-0.3010 email </s> -0.3010
+-0.3010 maps </s> -0.3010
+-0.3010 message </s> -0.3010
+-0.3010 music player 0.0000
+-0.3010 new email 0.0000
+-0.3010 note </s> -0.3010
+-1.0000 open browser 0.0000
+-1.0000 open calculator 0.0000
+-1.0000 open calendar 0.0000
+-1.0000 open maps 0.0000
+-1.0000 open music 0.0000
+-0.3010 photos </s> -0.3010
+-0.3010 picture </s> -0.3010
+-0.3010 player </s> -0.3010
+-0.3010 search </s> -0.3010
+-0.3010 send text 0.0000
+-0.7782 show commands 0.0000
+-0.7782 show contacts 0.0000
+-0.7782 show photos 0.0000
+-0.3010 someone </s> -0.3010
+-0.3010 take a 0.0000
+-0.3010 text message 0.0000
+
+\3-grams:
+-0.3010 <s> call someone
+-0.3010 <s> cancel </s>
+-0.3010 <s> new email
+-1.0000 <s> open BROWSER
+-1.0000 <s> open calculator
+-1.0000 <s> open calendar
+-1.0000 <s> open maps
+-1.0000 <s> open music
+-0.3010 <s> search </s>
+-0.3010 <s> send text
+-0.7782 <s> show commands
+-0.7782 <s> show contacts
+-0.7782 <s> show photos
+-0.3010 <s> take a
+-0.3010 a note </s>
+-0.3010 a picture </s>
+-0.3010 call someone </s>
+-0.3010 music player </s>
+-0.3010 new email </s>
+-0.3010 open browser </s>
+-0.3010 OPEN calculator </s>
+-0.3010 open calendar </s>
+-0.3010 open maps </s>
+-0.3010 open music player
+-0.3010 send text message
+-0.3010 show commands </s>
+-0.3010 show contacts </s>
+-0.3010 show photos </s>
+-0.6021 take a note
+-0.6021 take a picture
+-0.3010 text message </s>
+
+\end\

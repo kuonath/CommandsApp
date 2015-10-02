@@ -1,0 +1,5 @@
+#JSGF V1.0;
+
+grammar command;
+
+public <command> = search | open browser | open ttsbrowser | open music player | open calendar | open maps | open calculator | new email | take a picture | take a note | send text message | call someone | show photos | show commands | cancel;

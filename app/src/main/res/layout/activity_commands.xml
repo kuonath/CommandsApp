@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".CommandsActivity"
+    android:background="#2000FF">
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        /><!--android:background="@drawable/textview_frame"/>-->
+
+    <TextView
+        android:id="@+id/asr_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/instructions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        /><!--android:background="@drawable/textview_frame"/>-->
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asr_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        /><!--android:background="@drawable/textview_frame"/>-->
+
+    <TextView
+        android:id="@+id/partial_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        /><!--android:background="@drawable/textview_frame"/>-->
+
+    <EditText
+        android:id="@+id/phonenumber_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/partial_results"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:visibility="invisible"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/button_commands_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/button_commands_list"
+        android:textSize="15sp"
+        android:background="#0066FF"/>
+
+    <ImageButton
+        android:id="@+id/button_listen"
+        android:contentDescription="@string/button_listen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_commands_list"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:src="@mipmap/mic" />
+    
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@id/button_listen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        />><!--android:background="@drawable/textview_frame"/>-->
+
+    <Button
+        android:id="@+id/button_confirm_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="15sp"
+        android:background="#006600"
+        android:text="@string/yes"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/button_confirm_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:background="#660000"
+        android:text="@string/no"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

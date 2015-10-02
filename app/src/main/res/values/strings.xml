@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Commands</string>
+    <string name="settings_activity">Settings</string>
+
+    <string name="button_listen">Button to start listening</string>
+    <string name="button_commands_list">Show Commands</string>
+
+    <string name="empty"> </string>
+
+    <string name="prepare">Preparing the recognizer</string>
+    <string name="init_failed">Failed to init mRecognizer</string>
+    <string name="recognizer_not_setup">Recognizer is not setup. Please restart the app.</string>
+    <string name="welcome">Welcome! What do you want to do?</string>
+
+    <string name="instructions">Move the microphone close to your mouth or press the button to tell the device to listen.</string>
+    <string name="listen">Listening...</string>
+    <string name="speak">Speaking...</string>
+
+    <string name="confirm">You said "%1$s". Is that right?</string>
+    <string name="query">What do you want to search the internet for?</string>
+    <string name="dictate_message">Please say the number which you want to send a message to.</string>
+    <string name="dictate_call">Please say the number you want to call.</string>
+    <string name="select">There is more than one App that can carry out this command. Please select one of the Apps listed below either by clicking on them or by saying the number on the left of the icon.</string>
+    <string name="unknown">Unknown Command. Please say \'repeat\' to speak again or \'correct\' to choose one of the suggestions listed below by saying the number on the left.</string>
+    <string name="repeat">Please repeat the command.</string>
+    <string name="correct">Please choose one of the following suggestions from below. If you can\'t find the intended command, say \'missing\' and repeat the command again.</string>
+    <string name="number_too_big">This number is too big. Please say your choice again. It should be one of the numbers listed below.</string>
+    <string name="say_again">Please repeat what you wanted to say.</string>
+
+    <string name="toast_ready">Recognizer finished initializing</string>
+    <string name="toast_open_domain_ready">Open-domain speech recognition ready</string>
+    <string name="toast_tts_failed">Could not initialize Text-To-Speech</string>
+    <string name="toast_tts_init">Text-To-Speech successfully initialized</string>
+    <string name="toast_no_accel">There is no Accelerometer available on this device</string>
+    <string name="toast_no_grav">There is no Gravity Sensor available on this device</string>
+    <string name="toast_no_cover">There is neither a Proximity nor a Light Sensor on this device</string>
+    <string name="toast_command_error">Error! Could not execute command.</string>
+    <string name="toast_not_understood_continue">I didn\'t hear anything. Continue to Listen. You can cancel listening by pushing the back button.</string>
+    <string name="toast_not_understood_stop">I didn\'t hear anything.</string>
+    <string name="toast_dont_know">I don\'t know what happened. Please try again.</string>
+    <string name="toast_err_speaking">Error while speaking</string>
+    <string name="toast_feature_not_activated">This feature is not activated. Please, go to settings and activate this feature.</string>
+
+    <string name="suggestion_frequency">relevance: %1$d</string>
+
+    <!-- DialogFeaturesFragment -->
+    <string name="select_features">Please select the features you want to be activated.</string>
+    <string name="feature_asr">Automatic speech recognition</string>
+    <string name="feature_query">Open-domain queries</string>
+    <string name="feature_tts">Text-to-speech</string>
+    <string name="feature_sensor">Sensor input</string>
+    <string name="feature_touch">Touch input</string>
+    <string name="feature_haptic">Haptic feedback</string>
+    <string name="button_ok">OK</string>
+    <string name="button_settings">Settings</string>
+    <string name="button_close">Close App</string>
+
+    <!-- options menu -->
+    <string name="settings">Settings</string>
+
+    <!-- Preferences -->
+    <string name="pref_asr_group">Automatic Speech Recognition</string>
+    <string name="pref_asr_active_title">Automatic speech recognition activated</string>
+    <string name="pref_open_domain_title">Use open-domain queries</string>
+
+    <string name="pref_tts_group">Text-To-Speech</string>
+    <string name="pref_tts_active_title">Text-To-Speech activated</string>
+    <string name="pref_speech_rate_title">Speech rate</string>
+    <string name="pref_pitch_title">Pitch</string>
+    <string name="pref_language_title">Language</string>
+    <string name="pref_voice_title">Voice</string>
+    <string name="pref_engine_title">Engine</string>
+
+    <string name="asr_active">active</string>
+    <string name="asr_inactive">inactive</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+
+    <string name="pref_sensors_group">Sensors</string>
+    <string name="pref_sensors_active_title">Sensors activated</string>
+
+    <string name="pref_touch_group">Touch input</string>
+    <string name="pref_touch_active_title">Touch input active</string>
+
+    <string name="pref_haptic_group">Haptic feedback</string>
+    <string name="pref_haptic_active_title">Haptic feedback active</string>
+</resources>

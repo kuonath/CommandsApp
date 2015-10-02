@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+grammar number;
+
+<numbers> = 	   one     |  
+		   two     |
+		   three   |
+		   four    |
+		   five    |
+		   six     |
+		   seven   |
+		   eight   |
+		   nine;
+
+<other> = missing | cancel;
+		   
+public <number> = <numbers> | <other>;

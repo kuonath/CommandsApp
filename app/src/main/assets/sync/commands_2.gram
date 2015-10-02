@@ -1,0 +1,33 @@
+#JSGF V1.0;
+
+grammar command;
+
+<singlecommands> = search;
+
+<open> = open;
+
+<opencommands> = browser | ttsbrowser | music player | calendar | maps | calculator;
+
+<new> = new;
+
+<newcommands> = email;
+
+<take> = take a;
+
+<takecommands> = picture | note;
+
+<send> = send;
+
+<sendcommands> = text message;
+
+<call> = call;
+
+<callcommands> = someone;
+
+<show> = show;
+
+<showcommands> = photos | commands;
+
+<cancel> = cancel;
+
+public <command> = <singlecommands> | <open> <opencommands> | <new> <newcommands> | <take> <takecommands> | <send> <sendcommands> | <call> <callcommands> | <show> <showcommands> | <cancel>;

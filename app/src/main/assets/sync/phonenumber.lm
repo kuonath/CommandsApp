@@ -1,0 +1,166 @@
+Language model created by QuickLM on Wed Aug 26 12:22:14 EDT 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 39 sentences and 22 words
+
+\data\
+ngram 1=22
+ngram 2=59
+ngram 3=62
+
+\1-grams:
+-0.8561 </s> -0.3010
+-0.8561 <s> -0.1943
+-2.4472 asterisk -0.2359
+-2.4472 cancel -0.2359
+-1.4058 double -0.2466
+-1.9700 eight -0.2359
+-1.9700 five -0.2359
+-1.9700 four -0.2359
+-2.4472 hash -0.2359
+-1.9700 nine -0.2359
+-2.4472 number -0.2995
+-1.9700 oh -0.2359
+-1.9700 one -0.2359
+-2.4472 plus -0.2359
+-2.4472 pound -0.2359
+-1.9700 seven -0.2359
+-2.4472 sign -0.2359
+-1.9700 six -0.2359
+-1.9700 three -0.2359
+-1.4058 triple -0.2466
+-1.9700 two -0.2359
+-1.9700 zero -0.2359
+
+\2-grams:
+-1.8921 <s> asterisk 0.0000
+-1.8921 <s> cancel 0.0000
+-0.8507 <s> double 0.0000
+-1.8921 <s> eight 0.0000
+-1.8921 <s> five 0.0000
+-1.8921 <s> four 0.0000
+-1.8921 <s> hash 0.0000
+-1.8921 <s> nine 0.0000
+-1.8921 <s> number 0.0000
+-1.8921 <s> oh 0.0000
+-1.8921 <s> one 0.0000
+-1.8921 <s> plus 0.0000
+-1.8921 <s> pound 0.0000
+-1.8921 <s> seven 0.0000
+-1.8921 <s> six 0.0000
+-1.8921 <s> three 0.0000
+-0.8507 <s> triple 0.0000
+-1.8921 <s> two 0.0000
+-1.8921 <s> zero 0.0000
+-0.3010 asterisk </s> -0.3010
+-0.3010 cancel </s> -0.3010
+-1.3424 double eight 0.0000
+-1.3424 double five 0.0000
+-1.3424 double four 0.0000
+-1.3424 double nine 0.0000
+-1.3424 double oh 0.0000
+-1.3424 double one 0.0000
+-1.3424 double seven 0.0000
+-1.3424 double six 0.0000
+-1.3424 double three 0.0000
+-1.3424 double two 0.0000
+-1.3424 double zero 0.0000
+-0.3010 eight </s> -0.3010
+-0.3010 five </s> -0.3010
+-0.3010 four </s> -0.3010
+-0.3010 hash </s> -0.3010
+-0.3010 nine </s> -0.3010
+-0.3010 number sign 0.0000
+-0.3010 oh </s> -0.3010
+-0.3010 one </s> -0.3010
+-0.3010 plus </s> -0.3010
+-0.3010 pound </s> -0.3010
+-0.3010 seven </s> -0.3010
+-0.3010 sign </s> -0.3010
+-0.3010 six </s> -0.3010
+-0.3010 three </s> -0.3010
+-1.3424 triple eight 0.0000
+-1.3424 triple five 0.0000
+-1.3424 triple four 0.0000
+-1.3424 triple nine 0.0000
+-1.3424 triple oh 0.0000
+-1.3424 triple one 0.0000
+-1.3424 triple seven 0.0000
+-1.3424 triple six 0.0000
+-1.3424 triple three 0.0000
+-1.3424 triple two 0.0000
+-1.3424 triple zero 0.0000
+-0.3010 two </s> -0.3010
+-0.3010 zero </s> -0.3010
+
+\3-grams:
+-0.3010 <s> asterisk </s>
+-0.3010 <s> cancel </s>
+-1.3424 <s> double eight
+-1.3424 <s> double five
+-1.3424 <s> double four
+-1.3424 <s> double nine
+-1.3424 <s> double oh
+-1.3424 <s> double one
+-1.3424 <s> double seven
+-1.3424 <s> double six
+-1.3424 <s> double three
+-1.3424 <s> double two
+-1.3424 <s> double zero
+-0.3010 <s> eight </s>
+-0.3010 <s> five </s>
+-0.3010 <s> four </s>
+-0.3010 <s> hash </s>
+-0.3010 <s> nine </s>
+-0.3010 <s> number sign
+-0.3010 <s> oh </s>
+-0.3010 <s> one </s>
+-0.3010 <s> plus </s>
+-0.3010 <s> pound </s>
+-0.3010 <s> seven </s>
+-0.3010 <s> six </s>
+-0.3010 <s> three </s>
+-1.3424 <s> triple eight
+-1.3424 <s> triple five
+-1.3424 <s> triple four
+-1.3424 <s> triple nine
+-1.3424 <s> triple oh
+-1.3424 <s> triple one
+-1.3424 <s> triple seven
+-1.3424 <s> triple six
+-1.3424 <s> triple three
+-1.3424 <s> triple two
+-1.3424 <s> triple zero
+-0.3010 <s> two </s>
+-0.3010 <s> zero </s>
+-0.3010 double eight </s>
+-0.3010 double five </s>
+-0.3010 double four </s>
+-0.3010 double nine </s>
+-0.3010 double oh </s>
+-0.3010 double one </s>
+-0.3010 double seven </s>
+-0.3010 double six </s>
+-0.3010 double three </s>
+-0.3010 double two </s>
+-0.3010 double zero </s>
+-0.3010 number sign </s>
+-0.3010 TRIPLE eight </s>
+-0.3010 TRIPLE five </s>
+-0.3010 TRIPLE four </s>
+-0.3010 TRIPLE nine </s>
+-0.3010 TRIPLE oh </s>
+-0.3010 TRIPLE one </s>
+-0.3010 TRIPLE seven </s>
+-0.3010 TRIPLE six </s>
+-0.3010 TRIPLE three </s>
+-0.3010 TRIPLE two </s>
+-0.3010 TRIPLE zero </s>
+
+\end\

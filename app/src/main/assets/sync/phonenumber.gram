@@ -1,0 +1,25 @@
+#JSGF V1.0;
+
+grammar phonenumber;
+
+<names> = james | maria | john | patricia | robert | linda | micheal | barbara | william | elizabeth | david | jennifer | richard | maria | charles | susan | joseph | margaret | thomas | dorothy;
+
+<numbers> =	   oh	   |
+		   zero    |
+		   one     |  
+	   	   two     |
+		   three   |
+		   four    |
+		   five    |
+		   six     |
+		   seven   |
+		   eight   |
+		   nine    ;
+
+<multipliers> = double | triple;
+
+<signs> = asterisk | number sign | pound | plus;
+
+<cancel> = cancel;
+
+public <phonenumber> = <cancel> | <names> | <signs> <multipliers> <numbers>+ | <multipliers> <numbers>+ | <signs> <multipliers> <numbers>+ <signs>;

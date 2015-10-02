@@ -1,0 +1,61 @@
+Language model created by QuickLM on Mon Aug 17 11:35:17 EDT 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 9 sentences and 11 words
+
+\data\
+ngram 1=11
+ngram 2=18
+ngram 3=9
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.7324 eight -0.2218
+-1.7324 five -0.2218
+-1.7324 four -0.2218
+-1.7324 nine -0.2218
+-1.7324 one -0.2218
+-1.7324 seven -0.2218
+-1.7324 six -0.2218
+-1.7324 three -0.2218
+-1.7324 two -0.2218
+
+\2-grams:
+-1.2553 <s> eight 0.0000
+-1.2553 <s> five 0.0000
+-1.2553 <s> four 0.0000
+-1.2553 <s> nine 0.0000
+-1.2553 <s> one 0.0000
+-1.2553 <s> seven 0.0000
+-1.2553 <s> six 0.0000
+-1.2553 <s> three 0.0000
+-1.2553 <s> two 0.0000
+-0.3010 eight </s> -0.3010
+-0.3010 five </s> -0.3010
+-0.3010 four </s> -0.3010
+-0.3010 nine </s> -0.3010
+-0.3010 one </s> -0.3010
+-0.3010 seven </s> -0.3010
+-0.3010 six </s> -0.3010
+-0.3010 three </s> -0.3010
+-0.3010 two </s> -0.3010
+
+\3-grams:
+-0.3010 <s> eight </s>
+-0.3010 <s> five </s>
+-0.3010 <s> four </s>
+-0.3010 <s> nine </s>
+-0.3010 <s> one </s>
+-0.3010 <s> seven </s>
+-0.3010 <s> six </s>
+-0.3010 <s> three </s>
+-0.3010 <s> two </s>
+
+\end\
